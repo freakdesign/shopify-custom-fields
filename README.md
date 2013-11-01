@@ -8,7 +8,7 @@ To make new ones you'll need to either use [ShopifyFD](http://shopify.freakdesig
 Installation
 ------------
 
-Use the [Chrome Extension](https://chrome.google.com/webstore/detail/custom-fields-for-shopify/alfplfpobekffinigeidgmmfjollghln).
+Use the [Chrome Extension](https://chrome.google.com/webstore/detail/custom-fields-for-shopify/alfplfpobekffinigeidgmmfjollghln). It loads the files from here, but you can always just run from a [bookmarklet](https://rawgithub.com/freakdesign/shopify-custom-fields/master/installation.html) and drag the link into the browser bookmark bar. if your prefer (useful if you don't use chrome).
 
 
 To do
