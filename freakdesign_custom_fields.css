@@ -1,0 +1,63 @@
+/*
+
+
+
+      ############# 
+    ##            *## 
+   #        %      **#
+  #        %%%    ***#
+ #       %%F%D%%   ****#
+#          %%%    *****#
+#   ###     %     ###***# 
+#  # ####       #### #**# 
+#  #     #     #     #**# 
+#   #####  # #  #####***# 
+#         #   #  *******# 
+ ### #           **# ### 
+     # - - - - - - #                 
+      | | | | | | |
+	
+     freakdesign.com               
+
+
+	
+	Enjoying the tool? Consider leaving a tip:
+	http://shopify.freakdesign.com.au
+
+*/
+.freakdesign_custom_fields .black-header{border-top:3px solid #d82366;}
+.freakdesign_custom_fields .custom_fields_box{ }
+.freakdesign_custom_fields .custom_fields_box .content{position:relative;}
+.freakdesign_custom_fields .custom_fields_box .half {margin-bottom:1em;width:48%;float:left;}
+.freakdesign_custom_fields .custom_fields_box .half:nth-child(even){margin-left:4%;}
+#freakdesign_main_button{
+  background: #D81965;
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  height: 40px;
+  width: 178px;
+  line-height: 40px;
+  text-align: center; 
+}
+
+
+
+
+/* Modal window, because wrestling the built in one is a pain in the bee-hind... */
+.modalWindow {position: fixed;top: 0;right: 0;bottom: 0;left: 0;background: rgba(1, 12, 2, 0.7);z-index: 99999;display:none;text-align:center;}
+.modalWindow .span1, .modalWindow .span2, .modalWindow .span3, .modalWindow .half{float:left;padding:0;}
+.modalWindow .span1 {width:33.332%;}
+.modalWindow .span2 {width:66.665%;}
+.modalWindow .half {width:50%;}
+.modalWindow .active {display:block;}
+.modalWindow p {margin-bottom:1em;}
+.modalWindow > div {width: 500px;position: relative;margin: 10% auto;background: #fff;border-radius: 3px;padding:1em;text-align: left;box-shadow: 0 0 15px rgba(0,0,0,.5);}
+.modalWindow .content li{margin-bottom: 1em;}
+.modalWindow .content > div {max-height:400px;overflow:auto;}
+.modalWindow .close-modal{position:absolute;color:#000;border:1px solid #000;width:16px;height:16px;display:inline-block;line-height:16px;text-align:center;text-decoration:none;top:.7em;right:.7em;border-radius:50%}
+.modalWindow .close-modal:hover{background:#121212;color:#fff;}
+.modalWindow header{border-bottom:1px solid #ccc;margin:0 0 .5em;padding:0 2em .25em 0;min-height: .25em;}
+.modalWindow td{vertical-align: top;}
+.modalWindow .warning{background:red;padding:.25em;color:#fff;line-height:1.3;margin:0 0 .5em;}
+.modalWindow ul{padding-left: 1em;}
