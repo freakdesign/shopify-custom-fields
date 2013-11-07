@@ -42,7 +42,7 @@
 }
 
 
-
+.freakdesign_custom_fields input[data-cffield="select"], .freakdesign_custom_fields input[data-cffield="file"]{width:50%;}
 
 /* Modal window, because wrestling the built in one is a pain in the bee-hind... */
 .modalWindow {position: fixed;top: 0;right: 0;bottom: 0;left: 0;background: rgba(1, 12, 2, 0.7);z-index: 99999;display:none;text-align:center;}
