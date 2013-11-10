@@ -19,17 +19,14 @@
 	
      freakdesign.com               
 
-
-	
-	Enjoying the tool? Consider leaving a tip:
-	http://shopify.freakdesign.com.au
-
 */
 .freakdesign_custom_fields .black-header{border-top:3px solid #d82366;}
 .freakdesign_custom_fields .custom_fields_box{ }
 .freakdesign_custom_fields .custom_fields_box .content{position:relative;}
 .freakdesign_custom_fields .custom_fields_box .half {margin-bottom:1em;width:48%;float:left;}
 .freakdesign_custom_fields .custom_fields_box .half:nth-child(even){margin-left:4%;}
+.freakdesign_custom_fields .custom_fields_box label{border-bottom: 1px dotted #ccc}
+.freakdesign_custom_fields .custom_fields_box label span{float:right;}
 #freakdesign_main_button{
   background: #D81965;
   color: #fff;
