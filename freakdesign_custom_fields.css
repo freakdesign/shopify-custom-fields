@@ -26,7 +26,7 @@
 .freakdesign_custom_fields .custom_fields_box .half {margin-bottom:1em;width:48%;float:left;}
 .freakdesign_custom_fields .custom_fields_box .half:nth-child(even){margin-left:4%;}
 .freakdesign_custom_fields .custom_fields_box label{border-bottom: 1px dotted #ccc}
-.freakdesign_custom_fields .custom_fields_box label span{float:right;}
+.freakdesign_custom_fields .custom_fields_box label span{float:left;margin:0.5em 0;}
 #freakdesign_main_button{
   background: #D81965;
   color: #fff;
