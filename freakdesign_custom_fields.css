@@ -20,6 +20,9 @@
      freakdesign.com               
 
 */
+
+#freakdesign_main_button{background: #D81965;color: #fff;display: block;font-size: 12px;height: 40px;width: 178px;line-height: 40px;text-align: center;}
+
 .freakdesign_custom_fields .black-header{border-top:3px solid #d82366;}
 .freakdesign_custom_fields .custom_fields_box{ }
 .freakdesign_custom_fields .custom_fields_box .content{position:relative;}
@@ -27,21 +30,9 @@
 .freakdesign_custom_fields .custom_fields_box .half:nth-child(even){margin-left:4%;}
 .freakdesign_custom_fields .custom_fields_box label{border-bottom: 1px dotted #ccc}
 .freakdesign_custom_fields .custom_fields_box label span{float:right;}
-#freakdesign_main_button{
-  background: #D81965;
-  color: #fff;
-  display: block;
-  font-size: 12px;
-  height: 40px;
-  width: 178px;
-  line-height: 40px;
-  text-align: center; 
-}
-
-
+.freakdesign_custom_fields .custom_fields_box label span.block{float:none;display:block;font-size:85%;}
 .freakdesign_custom_fields input[data-cffield="select"], .freakdesign_custom_fields input[data-cffield="file"]{width:50%;}
 
-/* Modal window, because wrestling the built in one is a pain in the bee-hind... */
 .modalWindow {position: fixed;top: 0;right: 0;bottom: 0;left: 0;background: rgba(1, 12, 2, 0.7);z-index: 99999;display:none;text-align:center;}
 .modalWindow .span1, .modalWindow .span2, .modalWindow .span3, .modalWindow .half{float:left;padding:0;}
 .modalWindow .span1 {width:33.332%;}
