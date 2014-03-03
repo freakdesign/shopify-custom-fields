@@ -1,36 +1,40 @@
 Shopify custom fields
 =====================
 
-This a javascript tool to emulate Custom Fields within the Shopify dashboard. The main use would likely be Shopify designers and developers wanting to give their clients a simple way to edit metafields.
+![My image](https://freakdesign-us.s3.amazonaws.com/shopify/custom_fields/i/custom_fields_lrg.png)
 
-Do note that there's no interface for a Store Owner to make any new fields using this (simply to avoid explosions) so it's up to you - the developer - to help add them. To add the required metafields you'll need to either use [ShopifyFD](http://shopify.freakdesign.com.au/), the Shopify API, or a metafield app of your choice. 
+This a javascript tool to emulate Custom Fields within the Shopify dashboard. The main use would be for Shopify designers and developers wanting to give their clients a simple way to edit metafields with less confusion.
 
-Support Dev
-------------
-
-If this tool makes you look awesome to your paying customer, [consider leaving me a tip](http://shopify.freakdesign.com.au/#customfields). 
+Do note that there's no interface for a Store Owner to make any new fields using this (simply to avoid explosions) so it's up to you - the developer - to help add them. To add the required metafields you'll need to either use [ShopifyFD](http://shopify.freakdesign.com.au/), the [Shopify API](http://docs.shopify.com/api/metafield), or a metafield [app](https://apps.shopify.com/) of your choice. 
 
 
-Installation
-------------
+Installation and help
+---------------------
 
 tl;dr Use the [Chrome Extension](https://chrome.google.com/webstore/detail/custom-fields-for-shopify/alfplfpobekffinigeidgmmfjollghln).
 
 The Chrome Extension is simply a helper script that loads the files from here. If you don't run Chrome or just prefer to load via a bookmarklet you can follow the instructions on [this page](https://rawgithub.com/freakdesign/shopify-custom-fields/master/installation.html).
 
+A very basic help guide is [available](https://freakdesign-us.s3.amazonaws.com/shopify/custom_fields/freakdesign-custom-fields-for-shopify-guide.pdf).
 
-Requirements
-------------
 
-* metafields must be named under the "custom_fields" namespace (though some support has been added for a custom shorter alternative).
-* to show the collection dropdown make sure you keyname contains "[_c]"
+Support Development
+-------------------
+
+If this tool makes you look awesome to your paying customer or helped you land that project, [consider leaving me a tip](http://shopify.freakdesign.com.au/#customfields). 
+
+
+Exlcusions / notes
+------------------
+
+* This tool will NOT show metafields under the Global namespace. This is more of a sanity check than anything else.
+* Custom field whitelist is loaded once on load. If you change the whitelist after loading it, you'll need to force refresh.
 
 
 Custom field markers
 --------------------
 
-Add these strings into the key name for added magic. 
-Not all of these work yet so consider them a suggestion only.
+Add these strings into the key name for added magic. Not all of these work yet so consider them a suggestion only that may change at any time.
 
 * "[a]": limit display to articles only
 * "[c]": limit display to collections only
@@ -41,12 +45,3 @@ Not all of these work yet so consider them a suggestion only.
 * [_i]": mark as an integer field
 * [_g]": mark as a page field
 * [_p]": mark as a product field
-
-
-To do
------
-
-* Add custom fields to pages and articles (underway)
-* Get file uploads workings
-* Add products and page selectors
-* Do a proper user guide
