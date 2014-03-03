@@ -24,7 +24,7 @@ Support Development
 If this tool makes you look awesome to your paying customer or helped you land that project, [consider leaving me a tip](http://shopify.freakdesign.com.au/#customfields). 
 
 
-Exlcusions / notes
+Exclusions / notes
 ------------------
 
 * This tool will NOT show metafields under the Global namespace. This is more of a sanity check than anything else.
