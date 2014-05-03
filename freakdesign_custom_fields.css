@@ -50,3 +50,6 @@
 .modalWindow td{vertical-align: top;}
 .modalWindow .warning{background:red;padding:.25em;color:#fff;line-height:1.3;margin:0 0 .5em;}
 .modalWindow ul{padding-left: 1em;}
+
+.fadein{-webkit-animation: fade-in .25s linear;-moz-animation: fade-in .25s linear;-o-animation: fade-in .25s linear;animation: fade-in .25s linear;}
+.fadeinslow{-webkit-animation: fade-in 1s linear;-moz-animation: fade-in 1s linear;-o-animation: fade-in 1s linear;animation: fade-in 1s linear;}
