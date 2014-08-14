@@ -29,10 +29,11 @@
 .freakdesign_custom_fields .custom_fields_box .half {margin-bottom:1em;width:48%;float:left;}
 .freakdesign_custom_fields .custom_fields_box .half:nth-child(odd){clear:left;}
 .freakdesign_custom_fields .custom_fields_box .half:nth-child(even){margin-left:4%;}
-.freakdesign_custom_fields .custom_fields_box label{border-bottom: 1px dotted #ccc}
+.freakdesign_custom_fields .custom_fields_box label{border-bottom: 1px dotted #ccc;margin-bottom:5px!important;}
 .freakdesign_custom_fields .custom_fields_box label span{/*float:right;*/}
-.freakdesign_custom_fields .custom_fields_box label span.block{float:none;display:block;font-size:85%;}
+.freakdesign_custom_fields .custom_fields_box label span.block{float:none;display:block;font-size:85%;min-height: 1.5em}
 .freakdesign_custom_fields input[data-cffield="select"], .freakdesign_custom_fields input[data-cffield="file"]{width:50%;}
+
 
 .modalWindow {position: fixed;top: 0;right: 0;bottom: 0;left: 0;background: rgba(1, 12, 2, 0.7);z-index: 99999;display:none;text-align:center;}
 .modalWindow .span1, .modalWindow .span2, .modalWindow .span3, .modalWindow .half{float:left;padding:0;}
@@ -53,3 +54,106 @@
 
 .fadein{-webkit-animation: fade-in .25s linear;-moz-animation: fade-in .25s linear;-o-animation: fade-in .25s linear;animation: fade-in .25s linear;}
 .fadeinslow{-webkit-animation: fade-in 1s linear;-moz-animation: fade-in 1s linear;-o-animation: fade-in 1s linear;animation: fade-in 1s linear;}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.delayed{
+  -webkit-animation-delay:2s;
+  animation-delay:2s;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-4px,0);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -30px, 0);
+    -ms-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -15px, 0);
+    -ms-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-4px,0);
+    -ms-transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+@-webkit-keyframes fade-in
+{
+    from    { opacity: 0; }
+    to      { opacity: 1; }
+}
+@-moz-keyframes fade-in
+{
+    from    { opacity: 0; }
+    to      { opacity: 1; }
+}
+@-o-keyframes fade-in
+{
+    from    { opacity: 0; }
+    to      { opacity: 1; }
+}
+@keyframes fade-in
+{
+    from    { opacity: 0; }
+    to      { opacity: 1; }
+}
