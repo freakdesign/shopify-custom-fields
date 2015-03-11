@@ -163,3 +163,15 @@
     from    { opacity: 0; }
     to      { opacity: 1; }
 }
+
+.fd-cf-btn{
+  background: #D81965;
+  color: #fff;
+  border-color: #BA188C;
+}
+
+.custom-fields-future-buttons{
+  position: absolute;
+  top: -12px;
+  right: -12px;
+}
