@@ -33,9 +33,7 @@
 .freakdesign_custom_fields .custom_fields_box label span{/*float:right;*/}
 .freakdesign_custom_fields .custom_fields_box label span.block{float:none;display:block;font-size:85%;min-height: 1.5em}
 .freakdesign_custom_fields input[data-cffield="select"], .freakdesign_custom_fields input[data-cffield="file"]{width:50%;}
-
 .freakdesign_custom_fields .box-details .custom_fields_box {margin-top:1.5em;margin-left: -4px;}
-
 .freakdesign_custom_fields .custom-fields-content .next-card__section {
     padding: 0 0 10px!important;
     border-top:1px solid #eee;margin-top:20px
