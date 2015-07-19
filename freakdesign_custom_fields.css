@@ -38,7 +38,15 @@
     padding: 0 0 10px!important;
     border-top:1px solid #eee;margin-top:20px
 }
-
+.freakdesign_custom_fields .customfield_btn{
+  background: #D81965;
+  border-color: #A9124E;
+  margin-left: .25em;
+}
+.freakdesign_custom_fields .customfield_btn:hover, .freakdesign_custom_fields .customfield_btn:focus{
+  background: #D81965;
+  border-color: #A9124E;
+}
 .modalWindow {position: fixed;top: 0;right: 0;bottom: 0;left: 0;background: rgba(1, 12, 2, 0.7);z-index: 99999;display:none;text-align:center;}
 .modalWindow .span1, .modalWindow .span2, .modalWindow .span3, .modalWindow .half{float:left;padding:0;}
 .modalWindow .span1 {width:33.332%;}
