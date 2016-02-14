@@ -24,13 +24,11 @@
 #freakdesign_main_button{background: #D81965;color: #fff;display: block;font-size: 12px;line-height: 40px;text-align: center;}
 
 .freakdesign_custom_fields .black-header{border-top:3px solid #d82366;}
-.freakdesign_custom_fields .custom_fields_box{ }
 .freakdesign_custom_fields .custom_fields_box .content{position:relative;}
-.freakdesign_custom_fields .custom_fields_box .half {margin-bottom:1em;width:48%;float:left;}
+.freakdesign_custom_fields .custom_fields_box .half {margin-bottom:1em;width:49%;float:left;}
 .freakdesign_custom_fields .custom_fields_box .half:nth-child(odd){clear:left;}
-.freakdesign_custom_fields .custom_fields_box .half:nth-child(even){margin-left:4%;}
+.freakdesign_custom_fields .custom_fields_box .half:nth-child(even){margin-left:2%;}
 .freakdesign_custom_fields .custom_fields_box label{border-bottom: 1px dotted #ccc;margin-bottom:5px!important;}
-.freakdesign_custom_fields .custom_fields_box label span{/*float:right;*/}
 .freakdesign_custom_fields .custom_fields_box label span.block{float:none;display:block;font-size:85%;min-height: 1.5em}
 .freakdesign_custom_fields input[data-cffield="select"], .freakdesign_custom_fields input[data-cffield="file"]{width:50%;}
 .freakdesign_custom_fields .box-details .custom_fields_box {margin-top:1.5em;margin-left: -4px;}
@@ -57,7 +55,7 @@
 .modalWindow > div {width: 500px;position: relative;margin: 10% auto;background: #fff;border-radius: 3px;padding:1em;text-align: left;box-shadow: 0 0 15px rgba(0,0,0,.5);}
 .modalWindow .content li{margin-bottom: 1em;}
 .modalWindow .content > div {max-height:400px;overflow:auto;}
-.modalWindow .close-modal{position:absolute;background:#121212;color:#fff;border:1px solid #000;width:16px;height:16px;display:inline-block;line-height:16px;text-align:center;text-decoration:none;top:1em;right:1em;border-radius:50%;font-weight: bold;font-size: 1em;}
+.modalWindow .close-modal{position:absolute;background:#121212;color:#fff;border:1px solid #000;width:16px;height:16px;display:inline-block;line-height:1em;text-align:center;text-decoration:none;top:1em;right:1em;border-radius:50%;font-weight: bold;font-size: 1em;}
 .modalWindow .close-modal:hover{background:red;color:#fff;border-color:red;}
 .modalWindow header{border-bottom:1px solid #ccc;margin:0 0 .5em;padding:0 2em .25em 0;min-height: .25em;}
 .modalWindow td{vertical-align: top;}
