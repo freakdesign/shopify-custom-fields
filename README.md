@@ -21,7 +21,7 @@ A very basic help guide is [available](https://freakdesign-us.s3.amazonaws.com/s
 Support Development
 -------------------
 
-If this tool makes you look awesome to your paying customer or helped you land that project, [consider leaving me a tip](http://shopify.freakdesign.com.au/#customfields). 
+If this tool makes you look awesome to your paying customer or helped you land that project, [consider leaving me a tip](http://freakdesign.com.au/pages/shopify-custom-fields). 
 
 
 Exclusions / notes
@@ -34,14 +34,20 @@ Exclusions / notes
 Custom field markers
 --------------------
 
-Add these strings into the key name for added magic. Not all of these work yet so consider them a suggestion only that may change at any time.
+Add these strings into the value (or key) for added magic. Not all of these work yet so consider them a suggestion only that may change at any time.
 
 * "[a]": limit display to articles only
 * "[c]": limit display to collections only
+* "[cu]": limit display to customers only
 * "[g]": limit display to pages only
+* "[o]": limit display to orders only
 * "[p]": limit display to products only
+
 * "[_c]": mark as a collection field
-* [_f]": mark as a file field
-* [_i]": mark as an integer field
-* [_g]": mark as a page field
-* [_p]": mark as a product field
+* "[_f]": mark as a file field
+* "[_i]": mark as an integer field
+* "[_g]": mark as a page field
+* "[_p]": mark as a product field
+* "[_d]": mark as a number field
+* "[_n]": mark as a date field
+* "[_co]": mark as a color field
