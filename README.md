@@ -48,6 +48,6 @@ Add these strings into the value (or key) for added magic. Not all of these work
 * "[_i]": mark as an integer field
 * "[_g]": mark as a page field
 * "[_p]": mark as a product field
-* "[_d]": mark as a number field
-* "[_n]": mark as a date field
+* "[_n]": mark as a number field
+* "[_d]": mark as a date field
 * "[_co]": mark as a color field
