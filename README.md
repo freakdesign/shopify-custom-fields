@@ -42,6 +42,7 @@ Add these strings into the value (or key) for added magic. Not all of these work
 * "[g]": limit display to pages only
 * "[o]": limit display to orders only
 * "[p]": limit display to products only
+* "[v]": limit display to product variants only
 
 * "[_c]": mark as a collection field
 * "[_f]": mark as a file field
