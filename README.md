@@ -44,6 +44,7 @@ Add these strings into the value (or key) for added magic. Not all of these work
 * "[p]": limit display to products only
 * "[v]": limit display to product variants only
 
+* "[_t]": mark as a text area field
 * "[_c]": mark as a collection field
 * "[_f]": mark as a file field
 * "[_i]": mark as an integer field
